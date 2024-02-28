@@ -485,9 +485,47 @@ The DHCP is the dynamic address allocation and also follows the concept of the a
 
 ## Describe the need for private IPv4 addressing
 
+The original design of the Internet intended that each host on every network should have a real, routable IP address. An organization that would like to access the Internet would complete some paperwork to describe its internal network and the number of hosts on it. The organization would then receive a number of IP addresses, according to its needs. But there was one huge problem with this concept – if each host on each network in the world was provided with an unique IP address, we would have run out of IP addresses a long time ago!
+
+Therefore, the concept of private IP addressing was developed to address the IP address exhaustion problem. The private IP addresses can be used on the private network of any organization in the world and are not globally unique.
+
+Consider the following example:
+
+![alt text](image-18.png)
+
+In the example above you can see that two unrelated organizations use the same private IP network (10.0.0.0/24) inside their respective internal networks. Because private IP addresses are not globally unique, both organizations can use private IP addresses from the same range. To access the Internet, the organizations can use a technology called Network Address Translation (NAT), which we will describe in the later lessons.
+
+There are three ranges of addresses that can be used in a private network (e.g. your home LAN or office)
+
+10.0.0.0 – 10.255.255.255
+172.16.0.0 – 172.31.255.255
+192.168.0.0 – 192.168.255.255
+Internet routers are configured to discard any packets coming from the private IP address ranges, so these addresses are not routable on the Internet.
+
 ## Verify IP parameters for Client OS (Windows, Mac OS, Linux)
 
+IP address verification is often the first step of any network problem troubleshooting. First of all, we check the ip address of the devices in the network and we verify ip reachability. To do this in different Client devices, we need to know how to verify IP parameters for Client OS for different Operating Systems. Here, we will learn these steps.
+
+Linux (ifconfig)
+Windows (ipconfig ipconfig/all)
+MacOS (ifconfig?)
+
 ## Describe wireless principles
+
+Radio Frequencies
+Wireless technologies send data by using ranges of radio frequencies (RF) rather than physical cables. A range of frequencies is typically called a band.
+
+The two most commonly used bands for wireless communications are 2.4 GHz band and the 5 GHz band. Inside the 2.4 GHz and 5 GHz bands, the radio frequencies are gathered into channels. In 5GHz there are no overlapping channels. But the 2.4 GHz band does include some overlapping channels. To avoid problems when you are setting up wireless access points in the 2.4 GHz band, you should use the non-overlapping channels: 1, 6, and 11.
+
+The main differences between 2.4 GHz and 5 GHz are the range (coverage) and bandwidth (speed) that the bands provide. The 2.4 GHz band provides coverage at a longer range but the transmission of data is slow. The 5 GHz band provides less coverage but transmits data at faster speeds.
+
+Over the years, many IEEE 802.11 standards have emerged to take advantage of new wireless technology that operates in the 2.4 GHz and 5 GHz bands.
+
+![alt text](image-19.png)
+
+Service set identifier (SSID)
+Each wireless network has a service set identifier (SSID), which is a string of characters used to uniquely identify that network.
+
 
 ## Explain virtualization fundamentals (server virtualization, containers, and VRFs)
 
