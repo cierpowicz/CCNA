@@ -1,23 +1,23 @@
 # Network Access (20%)
 
 2.1 [Configure and verify VLANs (normal range) spanning multiple switches]()
-* a) Access ports (data and voice)
-* b) Default VLAN
-* c) InterVLAN connectivity
+* a) [Access ports (data and voice)]()
+* b) [Default VLAN]()
+* c) [InterVLAN connectivity]()
 
 2.2 [Configure and verify interswitch connectivity]()
-* a Trunk ports
-* b 802.1Q
-* c Native VLAN
+* a [Trunk ports]()
+* b [802.1Q]()
+* c [Native VLAN]()
 
 2.3 [Configure and verify Layer 2 discovery protocols (Cisco Discovery Protocol and LLDP)]()
 
 2.4 [Configure and verify (Layer 2/Layer 3) EtherChannel (LACP)]()
 
 2.5 [Interpret basic operations of Rapid PVST+ Spanning Tree Protocol]()
-* a) Root port, root bridge (primary/secondary), and other port names
-* b) Port states (forwarding/blocking)
-* c) PortFast
+* a) [Root port, root bridge (primary/secondary), and other port names]()
+* b) [Port states (forwarding/blocking)]()
+* c) [PortFast]()
 
 2.6 [Describe Cisco Wireless Architectures and AP modes]()
 

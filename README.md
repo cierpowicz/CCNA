@@ -23,6 +23,8 @@
 * https://ccnatutorials.in
 * https://www.nwkings.com
 * https://ipcisco.com
+* https://www.econfigs.com
+* 
 
 
 
