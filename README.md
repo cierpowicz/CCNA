@@ -24,7 +24,9 @@
 * https://www.nwkings.com
 * https://ipcisco.com
 * https://www.econfigs.com
-* 
+* https://www.hsmpress.ca
+* https://www.cisco.com
+
 
 
 

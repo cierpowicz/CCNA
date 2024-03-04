@@ -29,7 +29,7 @@
 * c [Broadcast (DR/BDR selection)]()
 * d [Router ID]()
 
-[3.5 Describe the purpose, functions, and concepts of first hop redundancy protocols]()
+3.5 [Describe the purpose, functions, and concepts of first hop redundancy protocols]()
 
 ## Interpret the components of routing table
 
